@@ -1,0 +1,54 @@
+.footballContainer  {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    .infoContainer {
+        height: 100vh;
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        .playerList{
+
+        
+            button{
+                display: flex;
+                flex-direction: row;
+                transition: 0.1s;
+                cursor: pointer;
+                &:hover {
+                    background-color: #99BF73;
+                }
+
+            }
+            }
+        .positionList {
+            li{
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                // margin: 10px;
+                border-bottom: 1px solid slateblue;
+
+           
+            }
+        }
+        }
+    .formationContainer{
+        background-color: #99BF73;
+        width: 80vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        div {
+            display: flex;
+            flex-direction: row;
+            h3{
+                padding: 20px;
+            }
+        }
+    }
+}
