@@ -10,10 +10,10 @@ const WelcomePage = () => {
     <div className = {styles.container}>
       <article>
         <h2>Ajax Data Table</h2>
-        <Link to = {"ajax"}>
-        <button>Click me</button>
+        {/* <Link to = {"ajax"}> */}
+        <button onClick = {alert('still in progress')}>Click me</button>
         <img src={apiImage} alt="" srcset=""/>
-        </Link>
+        {/* </Link> */}
       </article>
       <article>
         <h2>Single Question Quiz</h2>
